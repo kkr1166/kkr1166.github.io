@@ -447,7 +447,7 @@ a>i {
 }
 
 .ct {
-    margin-left: -260%;
+    margin-left: -110%;
 }
 
 .et {
@@ -463,7 +463,7 @@ a>i {
 }
 
 .pt {
-    margin-left: -220%;
+    margin-left: -190%;
 }
 
 /*Icon Media Queries
@@ -475,9 +475,11 @@ a>i {
 }
 
 @media only screen and (max-width : 370px) {
+/*
     .ct {
     margin-left: -180%;
 }
+*/
     .pt {
         margin-left: -250%;
     }
