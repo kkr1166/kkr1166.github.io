@@ -426,6 +426,11 @@ iframe {
     height: calc(70vw);
     padding: 5px;
 }
+            .collapsible {
+
+        padding-left: 0px;
+        padding-right: 0px;
+}
     }
     
 /* Hovering ------
