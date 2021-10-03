@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
     <head>  
         <meta charset="utf-8">
-        <title>Classical - Kitra Razin</title>
-        <link rel="stylesheet" href="css/classical.css">
+        <title>Music - Kitra Razin</title>
+        <link rel="stylesheet" href="css/music.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/4629a0026c.js" crossorigin="anonymous"></script>
         <script src="https://a-v2.sndcdn.com/assets/15-88b9f559-3.js" crossorigin=""></script>
@@ -11,9 +11,9 @@
     <body>    
         <nav role="navigation">
             <a href="https://kitrarazin.com" title="Homepage">Home</a>
-            <a href="classical.html" title="Classical Music" class="active">Classical</a>
+            <a href="music.html" class = "active" title="Music">Music</a>
             <a href="film.html" title="Film Scores">Films</a>
-            <a href="pop.html" class="rainbow-text" title="Pop Music">Pop</a>
+            <a href="https://kitrarazin.shinyapps.io/math/" class="rainbow-text" title="Data Projects">Math</a>
             <a href="lessons.html" title="Composition Lessons">Lessons</a>
             </nav> 
         <div class="message">
@@ -42,7 +42,8 @@
                         <div class="time-total">8:39</div></div></div>
                     <div class="left_of_middle"></div>
                     <div class="middle">
-                        <div class="track_photo" style="background-image: url('images/eye.jpeg');"></div>
+                        <div class="track_photo" style="background-image: url('https://i1.sndcdn.com/artworks-000243939348-v6jngb-t50x50.jpg');"></div>
+<!--                        style="background-image: url('images/eye.jpeg');"-->
                         <div class="track_info">
                         <div class="track_name">Heterochromia</div>
                         <div class="instrumentation">piano</div>
@@ -71,6 +72,74 @@
             </div>
                 <iframe src="https://drive.google.com/file/d/1Ab15QYaUUy1GCCX7n6umb8cdqrNw5YHd/preview" class="score" id="heterochromia_view_score" style="display: none;" width="100%"></iframe>
             </div>
+ 
+<!-- Next Track------------------------------------------------------------------------------------------>             
+            <div class="song" id="dontthink">
+                <div class="player dontthink">
+                    
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    
+                    <input type="range" class="player-time" value="1" max="100" min="1" step="1">
+                    
+                </div>
+                <div class="controls">
+                    <div class="left">
+                        <i class="fas fa-backward rwd"></i>
+                        <i class="fas fa-play play_pause"></i>
+                        <i class="fas fa-forward ffwd"></i>
+                        <div class="stack">
+                        <div class="time-elapsed">0:00</div>
+                        <div class="divider">/</div>
+                        <div class="time-total">2:19</div></div></div>
+                    <div class="left_of_middle"></div>
+                    <div class="middle">
+                        <div class="track_photo" style="background-image: url('images/1.5.png');"></div>
+                        <div class="track_info">
+                        <div class="track_name">Don't Think</div>
+                        <div class="instrumentation">pop</div>
+                        </div>
+                        </div>
+                    <div class="right_of_middle"></div>
+                    <div class="right">
+                        <div class="mini">
+                        <div class="flex">
+                        <div class="lyrics btn view_score" id="dontthink_view" onclick="viewPopScore(this.id)"><i>lyrics</i></div></div>
+                        <div class="flex">
+                        <div class="logic btn" id="dontthink_view_logic_btn" onclick="logicDontThink(this.id)"><i>logic</i></div></div>
+                        </div>
+                        </div>
+                </div>
+                <audio class="track" src="" />
+            </div>
+                <div class="lyric-wrap score" id="dontthink_view_score" style="display: none;">
+                <div class="words">
+                <p>I am a lone star<br>
+a lone start fighting<br>
+I am a lone star<br>
+a lone start fighting</p>
+                <p>I fight for us and for peace to hold<br>
+for peace to hold</p>
+                <p>I hold a light heart rejoicing<br>
+I hold a light heart rejoicing<br>
+for the fight we won we won<br>
+we won and the peace we hold<br>
+we won we hold we won we hold</p>
+                <p>fear equals thinking plus time<br>
+we can’t waste<br>
+fear equals thinking plus time<br>
+we don’t have</p>
+                <p>thought battles civil wars<br>
+love the formula</p>
+                
+                </div></div>
+
+                <iframe src="https://drive.google.com/file/d/17ik1jnEWXGlfkyBIY3sC40uAz6zeH-_z/preview" class="score" id="dontthink_view_logic_pdf" style="display: none;"></iframe>
+            </div>
+            
+
             
 <!-- Next Track------------------------------------------------------------------------------------------>   
             <div class="song" id="bonesick">
@@ -126,9 +195,78 @@
                 <audio class="track" src="" />
             </div>
                 <iframe src="https://drive.google.com/file/d/1n8d9xFIwYKyKXxFVKEK2DpDAQ30zzcau/preview" class="score" id="bonesick_view_score" style="display: none;" width="100%"></iframe>
-<!--                <embed src="scores/Bone%20Sick%20-%20Score.pdf" type="application/pdf" class="score" id="bonesick_view_score" style="display: none;" height="350px" width="100%">-->
+
             </div>            
               
+<!-- Next Track------------------------------------------------------------------------------------------>   
+            <div class="song" id="affluentaphasia">
+                <div class="player affluentaphasia">
+                    
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    
+                    <input type="range" class="player-time" value="1" max="100" min="1" step="1">
+                    
+                </div>
+                <div class="controls">
+                    <div class="left">
+                        <i class="fas fa-backward rwd"></i>
+                        <i class="fas fa-play play_pause"></i>
+                        <i class="fas fa-forward ffwd"></i>
+                        <div class="stack">
+                        <div class="time-elapsed">0:00</div>
+                        <div class="divider">/</div>
+                        <div class="time-total">2:17</div></div></div>
+                    <div class="left_of_middle"></div>
+                    <div class="middle">
+                        <div class="track_photo" style="background-image: url('images/2.png');"></div>
+                        <div class="track_info">
+                        <div class="track_name">Affluent Aphasia</div>
+                        <div class="instrumentation">pop</div>
+                        </div>
+                        </div>
+                    <div class="right_of_middle"></div>
+                    <div class="right">
+                        <div class="mini">
+                        <div class="flex">
+                        <div class="lyrics btn view_score" id="affluentaphasia_view" onclick="viewPopScore(this.id)">lyrics</div></div>
+                        <div class="flex">
+                        <div class="logic btn" id="affluentaphasia_view_logic_btn" onclick="logicaffluentaphasia(this.id)"><i>logic</i></div></div>
+                        </div>
+
+                        </div>
+                </div>
+                <audio class="track" src="" />
+            </div>
+                
+                
+                
+                <div class="lyric-wrap score" id="affluentaphasia_view_score" style="display: none;">
+                <div class="words">
+                    <p>don’t wake up<br>
+dismissal subsidize invest in time</p>
+                    <p>she is apologetic<br>
+dragonfly</p>
+                    <p>fabricating the lies<br>
+multiply quantify</p>
+                    <p>telepathy on my cries<br>
+suspicious serpentine<br>
+unlucky photographs<br>
+fall asleep</p>
+                    <p>that’s what they promised<br>
+run<br>
+I'd rather drink her blood<br>
+run</p>
+                </div></div>
+                
+
+                <iframe src="https://drive.google.com/file/d/1XkoeNnq6x7TcGm_PiQxisect3wazCOTd/preview" class="score" id="affluentaphasia_view_logic_pdf" style="display: none;"></iframe>
+
+            </div>            
+
+            
 <!-- Next Track------------------------------------------------------------------------------------------>  
             <div class="song" id="blacksugar">
                 <div class="player blacksugar">
@@ -185,8 +323,78 @@
                 <audio class="track" src="" />
             </div>
                 <iframe src="https://drive.google.com/file/d/1B_gZa0Bo6281hQRghtvtbQDCKTyTnyGB/preview" class="score" id="blacksugar_view_score" width="100%" title="Black Sugar" style="display: none;"></iframe>
-<!--                <embed src="scores/Black%20Sugar%20-%20Score.pdf" type="application/pdf" class="score" id="blacksugar_view_score" height="350px" width="100%" title="Black Sugar" style="display: none;">-->
+
             </div>
+            
+<!-- Next Track------------------------------------------------------------------------------------------>  
+            <div class="song" id="faeries">
+                <div class="player faeries">
+                    
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    
+                    <input type="range" class="player-time" value="1" max="100" min="1" step="1">
+                    
+                </div>
+                <div class="controls">
+                    <div class="left">
+                        <i class="fas fa-backward rwd"></i>
+                        <i class="fas fa-play play_pause"></i>
+                        <i class="fas fa-forward ffwd"></i>
+                        <div class="stack">
+                        <div class="time-elapsed">0:00</div>
+                        <div class="divider">/</div>
+                        <div class="time-total">3:14</div></div></div>
+                    <div class="left_of_middle"></div>
+                    <div class="middle">
+                        <div class="track_photo" style="background-image: url('images/3.png');"></div>
+                        <div class="track_info"> 
+                        <div class="track_name">Faeries</div>
+                        <div class="instrumentation">pop</div>
+                        </div>
+                        </div>
+                    <div class="right_of_middle"></div>
+                    <div class="right">
+                        <div class="mini">
+                        <div class="flex">
+                        <div class="lyrics btn view_score" id="faeries_view" onclick="viewPopScore(this.id)">lyrics</div></div>
+                        <div class="flex">
+                        <div class="logic btn" id="faeries_view_logic_btn" onclick="logicfaeries(this.id)"><i>logic</i></div></div>
+                        </div>
+
+                        </div>
+                </div>
+                <audio class="track" src="" />
+            </div>
+                <div class="lyric-wrap score" id="faeries_view_score" style="display: none;">
+                <div class="words">
+                    <p>reaching for the peach of clementation<br>
+                        seldom does she ever lie<br>
+                        seeking for release exoneration<br>
+                        angels do not cry</p>
+                    <p>galaxies growing with gruesome capacities<br>
+                        fallacies glowing of toxic philanthropies
+                        </p>
+                    <p>why does the spiral still spin<br>
+                        circling so simple it weighs<br>
+                        why does dystopia win<br>
+                        working we’re willing once again</p>
+                    <p>love please just for me<br>
+                        capture my night terrors<br>
+                        unleash<br>
+                        rapture my white errors’ seed</p>
+                    <p>why does the spiral still spin<br>
+                        circling so simple it weighs<br>
+                        why does dystopia win<br>
+                        working we’re willing once again</p>
+                    
+                </div></div>
+
+                <iframe src="https://drive.google.com/file/d/12Qjds1y2orHx1Ujvuq_qgFyJaFHjfwzb/preview" class="score" id="faeries_view_logic_pdf" style="display: none;"></iframe>
+
+            </div>            
             
 <!-- Next Track------------------------------------------------------------------------------------------>   
             <div class="song" id="smokewater">
@@ -244,8 +452,63 @@
                 <audio class="track" src="" />
             </div>
                 <iframe src="https://drive.google.com/file/d/1abcwHyr2VCYEijO4bXohpO43u2fVbasw/preview" class="score" id="smokewater_view_score" style="display: none;" width="100%"></iframe>
-<!--                <embed src="scores/Smoke%20Water%20-%20Score.pdf" type="application/pdf" class="score" id="smokewater_view_score" style="display: none;" height="350px" width="100%">-->
+
             </div>
+ 
+<!-- Next Track------------------------------------------------------------------------------------------>   
+            <div class="song" id="skeletonlies">
+                <div class="player skeletonlies">
+                    
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    
+                    <input type="range" class="player-time" value="1" max="100" min="1" step="1">
+                    
+                </div>
+                <div class="controls">
+                    <div class="left">
+                        <i class="fas fa-backward rwd"></i>
+                        <i class="fas fa-play play_pause"></i>
+                        <i class="fas fa-forward ffwd"></i>
+                        <div class="stack">
+                        <div class="time-elapsed">0:00</div>
+                        <div class="divider">/</div>
+                        <div class="time-total">2:29</div></div></div>
+                    <div class="left_of_middle"></div>
+                    <div class="middle">
+                        <div class="track_photo" style="background-image: url('images/4.png');"></div>
+                        <div class="track_info">
+                        <div class="track_name">Skeleton Lies</div>
+                        <div class="instrumentation">pop</div>
+                        </div>
+                        </div>
+                    <div class="right_of_middle"></div>
+                    <div class="right">
+                        <div class="mini">
+                        <div class="flex">
+                        <div class="lyrics btn view_score" id="skeletonlies_view" onclick="viewPopScore(this.id)">lyrics</div></div>
+                        <div class="flex">
+                        <div class="logic btn" id="skeletonlies_view_logic_btn" onclick="logicskeletonlies(this.id)"><i>logic</i></div></div>
+                        </div>
+
+                        </div>
+                </div>
+                <audio class="track" src="" />
+            </div>
+                <div class="lyric-wrap score" id="skeletonlies_view_score" style="display: none;">
+                <div class="words">
+                    
+                    <p>a moment of silence</p>
+                    <p>alright then</p>
+                    
+                </div></div>
+
+                <iframe src="https://drive.google.com/file/d/1VX1Bv6Ij_UqZAY0GPEq3tNaNBACIT0oj/preview" class="score" id="skeletonlies_view_logic_pdf" style="display: none;"></iframe>
+
+            </div>
+            
             
 <!-- Next Track------------------------------------------------------------------------------------------>   
             <div class="song" id="beehivecoke">
@@ -305,7 +568,59 @@
             </div>
                 <iframe src="https://drive.google.com/file/d/1r2Bss0Vb6zajs61Fwbkabbxqb71AcGKZ/preview" class="score" id="beehivecoke_view_score" style="display: none;" width="100%"></iframe>
                 
-<!--                <embed src="scores/Beehive%20Coke%20-%20Score.pdf" type="application/pdf" class="score" id="beehivecoke_view_score" style="display: none;" height="350px" width="100%">-->
+            </div>
+  
+<!-- Next Track------------------------------------------------------------------------------------------>   
+            <div class="song" id="seasharpe">
+                <div class="player seasharpe">
+                    
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    
+                    <input type="range" class="player-time" value="1" max="100" min="1" step="1">
+                    
+                </div>
+                <div class="controls">
+                    <div class="left">
+                        <i class="fas fa-backward rwd"></i>
+                        <i class="fas fa-play play_pause"></i>
+                        <i class="fas fa-forward ffwd"></i>
+                        <div class="stack">
+                        <div class="time-elapsed">0:00</div>
+                        <div class="divider">/</div>
+                        <div class="time-total">1:38</div></div></div>
+                    <div class="left_of_middle"></div>
+                    <div class="middle">
+                        <div class="track_photo" style="background-image: url('images/1.5.png');"></div>
+<!--                        style="background-image: url('images/5.png');"-->
+                        <div class="track_info">
+                        <div class="track_name">Sea Sharpe</div>
+                        <div class="instrumentation">pop</div>
+                        </div>
+                        </div>
+                    <div class="right_of_middle"></div>
+                    <div class="right">
+                        <div class="mini">
+                        <div class="flex">
+                        <div class="lyrics btn view_score" id="seasharpe_view" onclick="viewPopScore(this.id)">lyrics</div></div>
+                        <div class="flex">
+                        <div class="logic btn" id="seasharpe_view_logic_btn" onclick="logicseasharpe(this.id)"><i>logic</i></div></div>
+                        </div>
+
+                        </div>
+                </div>
+                <audio class="track" src="" />
+            </div>
+                <div class="lyric-wrap score" id="seasharpe_view_score" style="display: none;">
+                <div class="words">
+                    <p>ooo</p>
+                    <p>aaa</p>
+                </div></div>
+
+                <iframe src="https://drive.google.com/file/d/1LICsZbmBp2hh6ifHC3Vnyy11fmXGaGbM/preview" class="score" id="seasharpe_view_logic_pdf" style="display: none;"></iframe>
+
             </div>
             
 <!-- Next Track------------------------------------------------------------------------------------------>   
@@ -363,8 +678,64 @@
                 <audio class="track" src="" />
             </div>
                 <iframe src="https://drive.google.com/file/d/1X0Eo_jreOOB_i0ziox98z2VxHngFkg5d/preview" class="score" id="mode_view_score" style="display: none;" width="100%"></iframe>
-<!--                <embed src="scores/Mode%20-%20Score.pdf" type="application/pdf" class="score" id="mode_view_score" style="display: none;" height="350px" width="100%">-->
+
             </div>
+   
+<!-- Next Track------------------------------------------------------------------------------------------>   
+            <div class="song" id="roslyn">
+                <div class="player roslyn">
+                    
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    
+                    <input type="range" class="player-time" value="1" max="100" min="1" step="1">
+                    
+                </div>
+                <div class="controls">
+                    <div class="left">
+                        <i class="fas fa-backward rwd"></i>
+                        <i class="fas fa-play play_pause"></i>
+                        <i class="fas fa-forward ffwd"></i>
+                        <div class="stack">
+                        <div class="time-elapsed">0:00</div>
+                        <div class="divider">/</div>
+                        <div class="time-total">1:12</div></div></div>
+                    <div class="left_of_middle"></div>
+                    <div class="middle">
+                        <div class="track_photo" style="background-image: url('images/6.png');"></div>
+                        <div class="track_info">
+                        <div class="track_name">Roslyn <div class="cover">&nbsp; &#40;Cover&#41;</div></div>
+                        <div class="instrumentation">pop | original by Bon Iver</div>
+                        </div>
+                        </div>
+                    <div class="right_of_middle"></div>
+                    <div class="right">
+                        <div class="mini">
+                        <div class="flex">
+                        <div class="lyrics btn view_score" id="roslyn_view" onclick="viewPopScore(this.id)">lyrics</div></div>
+                        <div class="flex">
+                        <div class="logic btn" id="roslyn_view_logic_btn" onclick="logicroslyn(this.id)"><i>logic</i></div></div>
+                        </div>
+
+                        </div>
+                </div>
+                <audio class="track" src="" />
+            </div>
+                <div class="lyric-wrap score" id="roslyn_view_score" style="display: none;">
+                <div class="words">
+                    <p>up with your turret<br>
+                        old but you're staring down</p>
+                    <p>home is where we're going now</p>
+                    <p>I will breathe<br>
+                        softly now<br>
+                        softer now</p>
+                </div></div>
+
+                <iframe src="https://drive.google.com/file/d/1t0r3qstN48MW0HzYToeKIOIcTqRIbHKC/preview" class="score" id="roslyn_view_logic_pdf" style="display: none;"></iframe>
+
+            </div>            
             
 <!-- Next Track------------------------------------------------------------------------------------------>   
             <div class="song" id="tiptoe">
@@ -417,7 +788,67 @@
                 <audio class="track" src="" />
             </div>
                 <iframe src="https://drive.google.com/file/d/1CPQEbMsUHwvPaNHn_SBudEEQCL82Dw_g/preview" class="score" id="tiptoe_view_score" style="display: none;" width="100%"></iframe>
-<!--                <embed src="scores/Tiptoe%20-%20Score.pdf" type="application/pdf" class="score" id="tiptoe_view_score" style="display: none;" height="350px" width="100%">-->
+
+            </div>
+            
+<!-- Next Track------------------------------------------------------------------------------------------>   
+            <div class="song" id="why">
+                <div class="player why">
+                    
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    
+                    <input type="range" class="player-time" value="1" max="100" min="1" step="1">
+                    
+                </div>
+                <div class="controls">
+                    <div class="left">
+                        <i class="fas fa-backward rwd"></i>
+                        <i class="fas fa-play play_pause"></i>
+                        <i class="fas fa-forward ffwd"></i>
+                        <div class="stack">
+                        <div class="time-elapsed">0:00</div>
+                        <div class="divider">/</div>
+                        <div class="time-total">1:36</div></div></div>
+                    <div class="left_of_middle"></div>
+                    <div class="middle">
+
+                        <div class="track_photo" style="background-image: url('images/7.png');"></div>
+                        <div class="track_info">
+                        <div class="track_name">Why Wait <div class="cover">&nbsp; &#40;Cover&#41;</div></div>
+                        <div class="instrumentation">pop | original  by St. South</div>
+                        </div>
+                        </div>
+                    <div class="right_of_middle"></div>
+                    <div class="right">
+                        <div class="mini">
+                        <div class="flex">
+                        <div class="lyrics btn view_score" id="why_view" onclick="viewPopScore(this.id)">lyrics</div></div>
+                        <div class="flex">
+                        <div class="logic btn" id="why_view_logic_btn" onclick="logicwhy(this.id)"><i>logic</i></div></div>
+                        </div>
+
+                        </div>
+                </div>
+                <audio class="track" src="" />
+            </div>
+                <div class="lyric-wrap score" id="why_view_score" style="display: none;">
+                <div class="words">
+                    
+
+
+                    <p>love</p>
+                    <p>I was in love then, you said, of when we were apart<br>
+I was in love then, you said, of when we were apart</p>
+                    <p>love<br>
+love<br>
+love</p>
+                </div></div>
+
+                <iframe src="https://drive.google.com/file/d/1xkysjp38x1GAaQfO55E76LEMPhe4BptQ/preview" class="score" id="why_view_logic_pdf" style="display: none;"></iframe>
+
             </div>
             
             
@@ -444,7 +875,8 @@
                         <div class="time-total">2:40</div></div></div>
                     <div class="left_of_middle"></div>
                     <div class="middle">
-                        <div class="track_photo" style="background-image: url('images/light.jpeg');"></div>
+                        <div class="track_photo" style="background-image: url('https://i1.sndcdn.com/artworks-000507590364-wuxnoq-t50x50.jpg');"></div>
+<!--                        style="background-image: url('images/light.jpeg');"-->
                         <div class="track_info">
                         <div class="track_name">Rain</div>
                         <div class="instrumentation">piano</div>
@@ -473,9 +905,85 @@
                 <audio class="track" src="" />
             </div>
                 <iframe src="https://drive.google.com/file/d/1RutPWxizaTCF968N-t5N0NZZqMz0doOq/preview" class="score" id="rain_view_score" style="display: none;" width="100%"></iframe>
-<!--                <embed src="scores/Rain%20-%20Score.pdf" type="application/pdf" class="score" id="rain_view_score" style="display: none;" height="350px" width="100%">-->
+
             </div>
             
+<!-- Next Track------------------------------------------------------------------------------------------>   
+            <div class="song" id="river">
+                <div class="player river">
+                    
+                <div class="slider">
+                    <audio preload class="audio">
+                        <source src="#" type="audio/mpeg" />
+                    </audio>
+                    
+                    <input type="range" class="player-time" value="1" max="100" min="1" step="1">
+                    
+                </div>
+                <div class="controls">
+                    <div class="left">
+                        <i class="fas fa-backward rwd"></i>
+                        <i class="fas fa-play play_pause"></i>
+                        <i class="fas fa-forward ffwd"></i>
+                        <div class="stack">
+                        <div class="time-elapsed">0:00</div>
+                        <div class="divider">/</div>
+                        <div class="time-total">2:31</div></div></div>
+                    <div class="left_of_middle"></div>
+                    <div class="middle">
+
+                        <div class="track_photo" style="background-image: url('images/8.png');"></div>
+                        <div class="track_info">
+                        <div class="track_name">River <div class="cover">&nbsp; &#40;Cover&#41;</div></div>
+                        <div class="instrumentation">pop | original by Ibeyi</div>
+                        </div>
+                        </div>
+                    <div class="right_of_middle"></div>
+                    <div class="right">
+                        <div class="mini">
+                        <div class="flex">
+                        <div class="lyrics btn view_score" id="river_view" onclick="viewPopScore(this.id)">lyrics</div></div>
+                        <div class="flex">
+                        <div class="logic btn" id="river_view_logic_btn" onclick="logicriver(this.id)"><i>logic</i></div></div>
+                            </div>
+
+                        </div>
+                </div>
+                <audio class="track" src="" />
+            </div>
+                <div class="lyric-wrap score" id="river_view_score" style="display: none;">
+                <div class="words">
+                    
+
+
+
+
+
+                    <p>come to your river<br>
+I will come to your river<br>
+I will come to your river</p>
+                    <p>come to your river<br>
+wash my soul<br>
+I will come to your river<br>
+wash my soul<br>
+I will come to your river<br>
+wash my soul again</p>
+                    <p>come to your river<br>
+I will come to your river<br>
+I will come to your river<br>
+wash my soul again</p>
+                    <p>come to your river</p>
+                    <p>to your to your to your<br>
+to your to your river<br>
+come to your river<br>
+come to your river</p>
+                    <p>come to your river<br>
+come to your river</p>
+                </div></div>
+                <iframe src="https://drive.google.com/file/d/1CyFtBe_J7_u-eCY-akcIWix1OLTwVcBn/preview" class="score" id="river_view_logic_pdf" style="display: none;"></iframe>
+
+            </div>
+                    
             
 <!-- Next Track------------------------------------------------------------------------------------------>   
             <div class="song" id="mourningmoon">
@@ -497,7 +1005,8 @@
                         <div class="time-total">2:15</div></div></div>
                     <div class="left_of_middle"></div>
                     <div class="middle">
-                        <div class="track_photo" style="background-image: url('images/moon.jpeg');"></div>
+                        <div class="track_photo" style="background-image: url('https://i1.sndcdn.com/artworks-000507588765-8vcwpi-t50x50.jpg');"></div>
+<!--                        style="background-image: url('images/moon.jpeg');"-->
                         <div class="track_info">
                         <div class="track_name">Mourning Moon</div>
                         <div class="instrumentation">piano reduction of string quartet</div>
@@ -529,12 +1038,7 @@
                 <audio class="track" src="" />
             </div>
                 <iframe src="https://drive.google.com/file/d/1KvPVJgmmlcKy0wOLFee_ywDKb99yBptl/preview" class="score" id="mourningmoon_view_score" style="display: none;" width="100%"></iframe>
-<!--                <embed src="scores/Mourning%20Moon%20-%20Score.pdf" type="application/pdf" class="score" id="mourningmoon_view_score" style="display: none;" height="350px" width="100%">-->
-<!--                <iframe src="https://drive.google.com/file/d/1pV7CIW9bL8CT0moHp3aMfOiPnz5bVB8g/preview" class="score" id="mourningmoon_view_score" style="display: none;" height="350px" width="100%"></iframe>-->
-<!--
-                <div class="score" id="mourningmoon_view_score" style="display: none;"><iframe src="https://drive.google.com/viewerng/viewer?
-url=https://drive.google.com/file/d/1pV7CIW9bL8CT0moHp3aMfOiPnz5bVB8g/view?usp=sharing&embedded=true" height="350px" width="100%"/></div>
--->
+
             </div>
             
             
@@ -585,7 +1089,7 @@ url=https://drive.google.com/file/d/1pV7CIW9bL8CT0moHp3aMfOiPnz5bVB8g/view?usp=s
             </div>
            </div> 
 
-    <script type="text/javascript" src="js/classical.js"></script>
-        <script type="text/javascript" src="js/classical_score.js"></script>
+    <script type="text/javascript" src="js/music.js"></script>
+    <script type="text/javascript" src="js/music_score.js"></script>   
     </body>
 </html>

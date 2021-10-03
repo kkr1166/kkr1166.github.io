@@ -1,6 +1,6 @@
 /*loading page
 ------------------------------------*/
- 
+  
 @-moz-document url(about:blank) {
     html, body { background-color: whitesmoke; }
 }
@@ -11,13 +11,10 @@ html {
     background-color: whitesmoke;
     font-family: 'times new roman';
 } 
-
-body, html {
-    height: 100%;
-    margin: 0; 
-    background-color: whitesmoke;
+body {
+    margin: 0;
 }
-
+  
 /* Navigation
 ------------------------------------*/
 nav {
@@ -47,17 +44,11 @@ nav a {
   background-color: whitesmoke;
 }
 
+
+
 nav a.active {
   color: grey;
 }
-
-.rainbow-text {
-/*
-    background-image: linear-gradient(to left, red, blue);   -webkit-background-clip: text;
-    color: transparent; 
-*/
-}
-
 
 /*Message
 -----------------------------------*/
@@ -76,6 +67,7 @@ nav a.active {
 
 .song {
     margin-bottom: 20px;
+/*    z-index: -100;*/
     
 }
 
@@ -107,10 +99,6 @@ nav a.active {
     text-align: left;
 }
 
-.right_of_middle {
-
-}
-
 .fas fa-forward {
     display: flex;
     align-items: center;
@@ -129,7 +117,7 @@ nav a.active {
     font-size: 0.9em;
     border: solid 1px whitesmoke;
     border-radius: 6px;
-    
+    padding: 3px;
     margin: 0px 8px 0px 0px;
     font-style: italic;
     cursor: pointer;
@@ -152,7 +140,7 @@ nav a.active {
     justify-content: center;
     justify-items: center;
 }
- 
+
 .mini {
     display: flex;
 }
@@ -307,7 +295,7 @@ nav a.active {
 
 iframe {
     width: 100%;
-    height: 300px;
+    height: 350px;
 }
 
 h1 {
@@ -327,24 +315,33 @@ h1 {
     text-align: center;
     background-color: white;
     border: solid grey 3px;
-    height: 350px;
+    height: 328px;
     overflow: scroll;
     padding-bottom: 20px;
 /*    box-shadow: 3px 3px 8px 3px lightgrey;*/
 }
 
-/*
-div.river_view_score>.words{
-    margin-left: 30px;
+/*Tooltip Up
+-----------------------------------*/
+.up .tooltiptext {
+  top: -125px;
 }
+
+.up .tooltiptext::after {
+/*
+  top: 100%;
+  border-color: lightgrey transparent transparent transparent;
 */
+}
 
 /*Download hover tooltip
 -----------------------------------*/
 
 a {
-    color: grey;
+    color: whitesmoke;
 }
+
+
 
 /*Slider
 -----------------------------------*/
@@ -356,6 +353,8 @@ a {
     align-items: center;
     cursor: pointer;
 }
+
+
 
 [type='range'] {
 	outline: none;
@@ -398,7 +397,6 @@ input[type=range]::-moz-range-track {
     justify-content: center;
     margin-top: 45px;
     margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 .icon {
@@ -415,9 +413,6 @@ a>i {
 .classical, .pop, .fa-linkedin, fa-linkedin-in, .fa-envelope, .fa-github, .fa-github-square {
     font-size: 1.6em;
 }
-
-
-
 
 /*Icon Tooltips
 -----------------------------------*/
@@ -445,6 +440,7 @@ a>i {
   bottom: 100%;
   left: 50%;
 }
+
 
 .ct {
     margin-left: -110%;
@@ -502,6 +498,7 @@ a>i {
     .right {
         right: 120px;
     }
+    
 }
 
 /* Big ----------- */
@@ -536,6 +533,8 @@ a>i {
     .message {
         height: 80px;
     }
+
+
 }
 
 /* Medium ----------- */
@@ -559,7 +558,7 @@ a>i {
     }
     
     .left_of_middle {
-        width: calc(50vw - 280px);
+        width: calc(50vw - 295px);
     }
     
     .right {
@@ -574,6 +573,10 @@ a>i {
         height: 70px;
     }
     
+    embed {
+        height: 300px;
+    }
+    
     .rwd {
         font-size: .8em;
         padding-right: 10px;
@@ -585,6 +588,7 @@ a>i {
 }
 
     .play_pause {
+/*        font-size: 1em;*/
         padding-right: 10px;
 }
 
@@ -632,17 +636,15 @@ a>i {
     .flex {
     height: 45px;
 }
-    iframe {
-    height: 250px;
-}
-   .lyric-wrap {
-    height: 228px;
-}
+
 /*
+    .up .tooltiptext {
+
+  top: -660%;
+}
     .tooltip {
         padding-left: 10px;
     }
-    
     .tooltip .tooltiptext {
         
         margin-left: -194px;
@@ -738,7 +740,7 @@ a>i {
     }
     
     [type='range']::-webkit-slider-thumb {
-  margin-top: -.45em;
+ margin-top: -.45em;
   -webkit-appearance: none;
   box-sizing: border-box;
   border: none;
@@ -753,11 +755,10 @@ a>i {
         padding-left: 3px;
     }
     
-    p {
-        font-size: 0.9em;
-    }
-}
+    
 
+}
+ 
 /* Smaller ------
 ----- */
 @media only screen and (max-width : 505px) {
@@ -844,18 +845,14 @@ a>i {
         padding-left: 0px;
     }
     
-    .tooltip .tooltiptext {
-        
-        margin-left: -199px;
-    }
     
     iframe {
-    height: 200px;
+        
+    height: 300px;
 }
     .lyric-wrap {
-    height: 178px;
+    height: 278px;
 }
-    
 }
 
 /* Smallest ------
@@ -900,12 +897,8 @@ a>i {
         
         .flex {
     height: 53px;
-            font-size: 0.9em;
+            font-size: .9em;
         }
-        
-        p {
-        font-size: 0.8em;
-    }
         
         
 }
@@ -956,19 +949,13 @@ a>i {
             font-size: 1.3em!important;
             padding-right: 4px!important;
         }
-        
-        iframe {
-    height: 150px;
+
+        .tooltip .tooltiptext {
+  top: 25px;
 }
-        .lyric-wrap {
-    height: 128px;
+        .up .tooltiptext {
+  top: -110px;
 }
-        .cover {
-/*            font-style: italic;*/
-            font-size: 0.7em;
-/*            margin-left: 4px;*/
-}
-  
     } 
     
 /* Hovering ------
@@ -983,13 +970,10 @@ a>i {
     border: solid 1px grey!important;
     color: grey;
 }
-    
     a:hover {
     color: grey;
 }
-    .tt:hover .ttt {
-  visibility: visible;
-}
+    
 
 i.classical:hover, i.fa-linkedin:hover, i.pop:hover, i.fa-github:hover, i.fa-github-square:hover, i.fa-envelope:hover {
     color: black;
@@ -1004,7 +988,10 @@ i.classical:hover, i.fa-linkedin:hover, i.pop:hover, i.fa-github:hover, i.fa-git
     cursor: pointer;
 }
     
+.tt:hover .ttt {
+  visibility: visible;
 }
-
+    
+}
 
 
