@@ -113,9 +113,11 @@ a>i {
     margin-right: 10px;
 }
 
-.classical, .pop, .fa-linkedin, fa-linkedin-in, .fa-envelope, .fa-github, .fa-github-square {
+.classical, .pop, .fa-linkedin, fa-linkedin-in, .fa-envelope, .fa-github, .fa-github-square, .fa-apple {
     font-size: 1.6em;
 }
+
+
 
 /*Icon Tooltips
 -----------------------------------*/
@@ -351,7 +353,7 @@ img {
   cursor: pointer;
 }
 
-i.classical:hover, i.fa-linkedin:hover, i.pop:hover, i.fa-github:hover, i.fa-github-square:hover, i.fa-envelope:hover {
+i.classical:hover, .fa-apple:hover, i.fa-linkedin:hover, i.pop:hover, i.fa-github:hover, i.fa-github-square:hover, i.fa-envelope:hover {
     color: black;
 }
     
