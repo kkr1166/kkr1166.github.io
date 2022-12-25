@@ -1,14 +1,6 @@
-/*loading page
-------------------------------------*/
-  
-@-moz-document url(about:blank) {
-    html, body { background-color: whitesmoke; }
-}
-
 /*General
 ------------------------------------*/
 html {
-    background-color: whitesmoke;
     font-family: 'times new roman';
 } 
 body {
@@ -26,7 +18,7 @@ nav {
   position: fixed;
   top: 0;
   width: calc(100vw - 20vw);
-  background-color: whitesmoke;
+  background-color: white;
   z-index: 10;
 }
 
@@ -41,7 +33,6 @@ nav a {
   text-decoration: none;
   font-family: 'times new roman';
   font-size: 2em;
-  background-color: whitesmoke;
 }
 
 
@@ -55,7 +46,7 @@ nav a.active {
 .message {
     text-align: bottom;
     height: 100px;
-    color: whitesmoke;
+    color: white;
 }
 
 /*Tracks
@@ -115,7 +106,7 @@ nav a.active {
 
 .btn {
     font-size: 0.9em;
-    border: solid 1px whitesmoke;
+    border: solid 1px white;
     border-radius: 6px;
     padding: 3px;
     margin: 0px 8px 0px 0px;
@@ -338,7 +329,7 @@ h1 {
 -----------------------------------*/
 
 a {
-    color: whitesmoke;
+    color: white;
 }
 
 
@@ -405,7 +396,7 @@ input[type=range]::-moz-range-track {
 }
 
 a>i {
-    color: dimgray;
+    color: grey;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -431,7 +422,7 @@ a>i {
   visibility: hidden;
   background-color: grey;
   white-space: nowrap;
-  color: whitesmoke;
+  color: white;
   text-align: center;
   padding: 2px 4px;
   margin-bottom: 8px;
@@ -690,13 +681,11 @@ a>i {
         margin-right: 15px;
         width: calc(100vw - 30px);
         border-bottom: black solid 2px;
-        background-color: whitesmoke;
         max-height: 35px;
     }
     
     nav a {
         font-size: 1.2em;
-        color: black;
         padding-top: 5px;
         padding-bottom: 5px;
         
@@ -768,14 +757,12 @@ a>i {
         margin-right: 10px;
         width: calc(100vw - 20px);
         border-bottom: black solid 2px;
-        background-color: whitesmoke;
         max-height: 25px;
         
     }
     
     nav a {
         font-size: .8em;
-        color: black;
         padding-top: 5px;
         padding-bottom: 5px;
         
@@ -807,7 +794,7 @@ a>i {
     }
     
     .time-elapsed {
-        border-bottom: solid 0.4px whitesmoke;
+        border-bottom: solid 0.4px white;
         padding-left: 0px;
         
     }
@@ -976,7 +963,7 @@ a>i {
     
 
 i.classical:hover, i.fa-linkedin:hover, i.pop:hover, i.fa-github:hover, i.fa-github-square:hover, i.fa-envelope:hover, .fa-apple:hover {
-    color: black;
+    color: grey;
 }
 
 .rwd:hover, .ffwd:hover, .play_pause:hover, .eye:hover, .scroll:hover {

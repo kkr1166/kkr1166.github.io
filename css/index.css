@@ -1,14 +1,7 @@
-/*loading page
-------------------------------------*/
-@-moz-document url(about:blank) {
-    html,body { background-color: whitesmoke; }
-}
-
 /*body,html
 ------------------------------------*/
 
 html {
-    background-color: whitesmoke;
     font-family: 'times new roman';
 } 
 body {
@@ -33,8 +26,8 @@ body {
 
 img {
     width: 500px;
-    height: calc((500px/2299)*1422);
-    border: solid 3px grey;
+    height: 100%;
+    border: solid 3px black;
 }
  
 .small {
@@ -44,13 +37,11 @@ img {
 /*bio
 ------------------------------------*/
 #bio {
-
-    background-color: whitesmoke;
     font-family: 'times new roman';
     font-size: 1.2em;
     padding-top: 10px;
     padding-bottom: 30px;
-    color: grey;
+    color: black;
 }
 
 /* Navigation
@@ -64,7 +55,7 @@ nav {
   position: fixed;
   top: 0;
   width: calc(100vw - 20vw);
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 nav a {
@@ -78,20 +69,20 @@ nav a {
   text-decoration: none;
   font-family: 'times new roman';
   font-size: 2em;
-  background-color: whitesmoke;
 }
 
 nav a.active {
-  color: grey;
+    color: grey;
 }
 
 /*
 nav a.rainbow-text {
     
-    background-image: linear-gradient(to left, blue, red);   -webkit-background-clip: text;
+    background-image: linear-gradient(to left, turquoise, deeppink);   -webkit-background-clip: text;
     color: transparent; 
 }
 */
+
 
 /*Icons
 -----------------------------------*/
@@ -108,7 +99,7 @@ nav a.rainbow-text {
 }
 
 a>i {
-    color: dimgray;
+    color: black;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -134,9 +125,9 @@ a>i {
 
 .tt .ttt {
   visibility: hidden;
-  background-color: grey;
+    background-color: grey;
   white-space: nowrap;
-  color: whitesmoke;
+  color: white;
   text-align: center;
   padding: 2px 4px;
   margin-bottom: 8px;
@@ -174,12 +165,6 @@ a>i {
     }
 }
 
-@media only screen and (max-width : 370px) {
-/*
-    .ct {
-    margin-left: -180%;
-}
-*/
     .pt {
         margin-left: -250%;
     }
@@ -198,7 +183,6 @@ a>i {
 
 img {
     width: 450px;
-    height: calc((450px/2299)*1422);
 }
 
 }
@@ -247,32 +231,22 @@ img {
         margin-right: 15px;
         width: calc(100vw - 30px);
         border-bottom: black solid 2px;
-        background-color: whitesmoke;
         max-height: 35px;
     }
     
     nav a {
         font-size: 1.2em;
-        color: black;
         padding-top: 5px;
         padding-bottom: 5px;
         
     }
     
-    nav a.active {
-        color: grey;
-    }
     
     .container {
         margin-top: 50px;
-/*
-        margin-left: 6vw;
-        margin-right: 6vw;
-*/
 }
     img {
         width: calc(80vw - 6px);
-        height: calc(((80vw - 6px)/2299)*1422);
 }
     
     
@@ -284,13 +258,13 @@ img {
 @media only screen and (max-width : 500px) {
     img {
     width: calc(90vw - 6px);
-    height: calc(((90vw - 6px)/2299)*1422);
 }
     .container {
     margin-left: calc(5vw - 3px);
     margin-right: calc(5vw - 3px);
 }
     
+/*
     .small {
         display: block;
     }
@@ -298,9 +272,9 @@ img {
     .big {
         display: none;
     }
+*/
     
     #bio {
-        padding-bottom: 0px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -316,22 +290,17 @@ img {
         margin-right: 10px;
         width: calc(100vw - 20px);
         border-bottom: black solid 2px;
-        background-color: whitesmoke;
         max-height: 25px;
         
     }
     
     nav a {
         font-size: .8em;
-        color: black;
         padding-top: 5px;
         padding-bottom: 5px;
         
     }
     
-    nav a.active {
-        color: grey;
-    }
     
     #bio {
         font-size: 1.2em;
@@ -349,12 +318,12 @@ img {
 ----- */
 @media(hover: hover) and (pointer: fine) {
     nav>a:hover {
-  color: grey;
+        color: grey;
   cursor: pointer;
 }
 
 i.classical:hover, .fa-apple:hover, i.fa-linkedin:hover, i.pop:hover, i.fa-github:hover, i.fa-github-square:hover, i.fa-envelope:hover {
-    color: black;
+    color: grey;
 }
     
 .tt:hover .ttt {

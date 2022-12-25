@@ -1,16 +1,18 @@
 /*loading page
 ------------------------------------*/
 
+/*
 @-moz-document url(about:blank) {
     html, body { 
         background-color: whitesmoke; 
     }
 }
+*/
  
 /*General
 ------------------------------------*/
 html {
-    background-color: whitesmoke;
+/*    background-color: whitesmoke;*/
     font-family: 'times new roman';
     margin: 0;
     
@@ -41,7 +43,7 @@ nav {
   position: fixed;
   top: 0;
   width: calc(100vw - 20vw);
-  background-color: whitesmoke;
+  background-color: white;
   
 }
 
@@ -56,7 +58,6 @@ nav a {
   text-decoration: none;
   font-family: 'times new roman';
   font-size: 2em;
-  background-color: whitesmoke;
 }
 
 
@@ -571,7 +572,6 @@ outline: none;
         margin-right: 15px;
         width: calc(100vw - 30px);
         border-bottom: black solid 2px;
-        background-color: whitesmoke;
         max-height: 35px;
     }
     
